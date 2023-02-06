@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 public class AddressBook {
     Contact person = new Contact();
-    ArrayList<Contact> people = new ArrayList<Contact>();
+    public List<Contact> people = new ArrayList<Contact>();
     Scanner sc = new Scanner(System.in);
 
     public void addContact() {
@@ -36,4 +36,6 @@ public class AddressBook {
         people.add(person);
     }
 
+
 }
+
